@@ -1,4 +1,4 @@
-# restaurant-page
+# weather-app
 The goal of this project is to build a weather app with webpack, ES6 modules, and API.
 
 - I wrote the functions that hit the API. Functions that can take a location and return the weather data for that location.
