@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="content">
+      <div class="container">
+        <div class="alert alert-success d-none" id="alert"></div>
+        <div class="alert alert-danger d-none" id="danger"></div>
+        <div class="row logo">
+          <div class="col-12 text-center">
+            <img src="https://www.wunderground.com/static/i/c/v4/28.svg" alt="logo" class="img-fluid">
+            <h1 class="display-1 font-weight-bold text-white">Weather App</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-12 text-center search">
+            <form id="form">
+              <input type="text" name="search" value="" placeholder="Search for a city" id="searchInput"><br>
+              <button class="bg-blue pointer" type="submit" name="button" id="search">Search</button>
+            </form>
+            <p id="loading" class="text-white d-none">
+              <i class="fas fa-circle-notch"></i>
+              <strong>Loading</strong>
+            </p>
+          </div>
+        </div>
+        <div class="row" id="details1">
+          <div id="description" class="col-12 text-center font-weight-bold text-white">
+          </div>
+          <div id="city" class="col-12 display-4 text-center font-weight-bold text-white">
+          </div>
+          <div class="col-12 text-center mt-3 switch">
+            <a id="fahr" class="d-none pointer bg-blue rounded text-white">F</a>
+            <a id="deg" class="d-none pointer rounded text-white">C°</a>
+          </div>
+        </div>
+        <div class="row mb-5 mt-5" id="details2">
+          <div id="icon" class="col-12 col-md-4 text-center">
+          </div>
+          <div class="col-12 col-md-4 weatherDetails text-white text-center">
+            <h3 id="temp" class="display-6 font-weight-bold"></h3>
+            <em id="feel"></em>
+          </div>
+          <div class="col-12 col-md-4 weatherDetails text-white text-center">
+            <h3 id="humidity" class="display-6 font-weight-bold"></h3>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

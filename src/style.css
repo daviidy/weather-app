@@ -1,0 +1,104 @@
+body,
+button {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #1e2023;
+}
+
+input {
+  width: 50%;
+  box-shadow: 3px 10px 23px 0 rgb(0 0 0 / 75%);
+  border-radius: 5px;
+  height: 53px;
+  font-size: 2rem;
+}
+
+.bg-blue {
+  background-color: #4d90cc;
+}
+
+.search {
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+}
+
+.pointer {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.pointer:hover {
+  text-decoration: none;
+}
+
+@keyframes spinner {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#search {
+  margin: 1rem auto;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.fa-circle-notch {
+  animation-name: spinner;
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+}
+
+.btn-toggle {
+  margin: 0 4rem;
+  padding: 0;
+  position: relative;
+  border: none;
+  height: 1.5rem;
+  width: 3rem;
+  border-radius: 1.5rem;
+  color: #6b7381;
+  background: #bdc1c8;
+}
+
+.btn-toggle > .handle {
+  position: absolute;
+  top: 0.1875rem;
+  left: 0.1875rem;
+  width: 1.125rem;
+  height: 1.125rem;
+  border-radius: 1.125rem;
+  background: #fff;
+  transition: left 0.25s;
+}
+
+.switch a {
+  padding: 8px 30px;
+  font-size: 25px;
+}
+
+.logo img {
+  width: 10%;
+}
+
+#description {
+  font-size: 35px;
+}
+
+.container {
+  padding-top: 7rem;
+}
+
+#loading {
+  font-size: 25px;
+}
