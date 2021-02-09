@@ -13,6 +13,7 @@ The goal of this project is to build a weather app with webpack, ES6 modules, an
 - JavaScript
 - Webpack
 - Bootstrap 4
+- Open Weather API: https://openweathermap.org/api
 
 ## 🚀 Our Project
 
@@ -20,7 +21,7 @@ Our project can be found at https://github.com/daviidy/weather-app
 
 ## Live Demo
 
-You can find the demo [here](https://github.com/daviidy/weather-app)
+You can find the demo [here](https://daviidy.github.io/weather-app/)
 
 
 ## To run the project in local
