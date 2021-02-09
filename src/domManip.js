@@ -31,7 +31,6 @@ const domManip = () => {
     humidity,
     alert,
     danger,
-    icon,
     deg,
     fahr,
     details1,
